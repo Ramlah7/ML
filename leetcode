@@ -1,0 +1,6 @@
+def merge( nums1, m, nums2, n):
+    for i in range(n):
+        nums1[m+i]=nums2[i]
+    nums1.sort()
+    return nums1
+print(merge( nums1 = [0], m = 0, nums2 = [1], n = 1))
